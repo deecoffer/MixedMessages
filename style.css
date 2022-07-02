@@ -1,0 +1,53 @@
+html {
+    background-color: #32158a;
+    font-family:'Spline Sans Mono', serif ;
+    font-weight: 300;
+    color: white;
+}
+
+.question{
+    text-align: center;
+    padding-top: 15%;
+}
+.question-label{
+    font-size: 2rem;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+#text{
+    width:700px;
+    height: 30px;
+    background-color: azure;
+    font-family: 'Spline Sans Mono',sans-serif;
+    color: #736086;
+
+}
+
+#text-sub{
+    font-family: 'Spline Sans Mono',sans-serif;
+    font-weight: 600;
+}
+
+.answer-area{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.answer{
+    color: white;
+    font-family: 'Spline Sans Mono', serif;
+    font-size: 1rem;
+}
+
+.gif{
+    display: flex;
+    justify-content: center;
+}
+
+.giff{
+    padding-top: 3%;
+}

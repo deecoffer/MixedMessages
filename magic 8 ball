@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magic 8 Ball</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="pics/magic8ball.ico" ref="shortcut icon" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="question">
+            <h2 class="question-label">Find about your future!</h2>
+        </div>
+        <div class="input-container">
+            <input id="submit" type="submit">
+            <script>
+                $("#input").on('keyup', function (event) {
+                if (event.keyCode === 13) {
+                 console.log("Enter key pressed!!!!!");
+                }
+                });
+            </script>
+        </div>
+    </body>
+    <footer>
+        
+    </footer>
+</html>
